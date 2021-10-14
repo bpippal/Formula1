@@ -47,7 +47,7 @@ mainContentNode.innerHTML += `<h2 class="display-3">Welcome to My F1 Pet Project
         bpippal@gmail.com
     </p>`
 
-    fetch("http://ergast.com/api/f1/current/driverStandings.json")
+    fetch("https://ergast.com/api/f1/current/driverStandings.json")
     .then((resp) => resp.json())
     .then((finalResp) => {
 
@@ -118,7 +118,7 @@ lastRaceButton.addEventListener("click", () => {
 //Current Standing button EVENT
 currentStandingButton.addEventListener("click", () =>{
 
-    fetch("http://ergast.com/api/f1/current/driverStandings.json")
+    fetch("https://ergast.com/api/f1/current/driverStandings.json")
         .then((resp) => resp.json())
         .then((finalResp) => {
 
@@ -179,7 +179,7 @@ driverInfoButton.addEventListener("click",() => {
 
     //Fill the first layout with Info!
 
-    fetch("http://ergast.com/api/f1/current/driverStandings.json")
+    fetch("https://ergast.com/api/f1/current/driverStandings.json")
     .then((resp) => resp.json())
     .then((finalResp) => {
 
@@ -263,7 +263,7 @@ driverInfoButton.addEventListener("click",() => {
     
         
         
-        fetch("http://ergast.com/api/f1/current/driverStandings.json")
+        fetch("https://ergast.com/api/f1/current/driverStandings.json")
         .then((resp) => resp.json())
         .then((finalResp) => {
 
@@ -319,7 +319,7 @@ driverInfoButton.addEventListener("click",() => {
           newBut.classList.add("btn-danger");
       })
 
-      fetch("http://ergast.com/api/f1/current/driverStandings.json")
+      fetch("https://ergast.com/api/f1/current/driverStandings.json")
       .then((resp) => resp.json())
       .then((finalResp) => {
 
@@ -372,7 +372,7 @@ driverInfoButton.addEventListener("click",() => {
           newBut.classList.add("btn-danger");
       })
 
-      fetch("http://ergast.com/api/f1/current/driverStandings.json")
+      fetch("https://ergast.com/api/f1/current/driverStandings.json")
       .then((resp) => resp.json())
       .then((finalResp) => {
 
