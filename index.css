@@ -1,0 +1,247 @@
+div.main-head img{
+    width: 10%;
+    height: 10%;
+    background-color: transparent;
+}
+
+div.main-head{
+    align-items: center;
+    background-color: rgb(156, 236, 210);
+}
+
+div.side-nav{
+    display: flex;
+    align-items: center;
+    
+    width: 307px;
+    height: 100vh;
+    background-color: rgb(241, 185, 175);
+}
+
+div.side-nav li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.content{
+    
+    padding: 15px;
+    margin-right: 30px ;
+
+    position: absolute;
+    top: 200px;
+    margin-left: 370px;
+}
+
+
+/* CSS TO Main Page */
+div.main-page p{
+    text-align: right;
+}
+
+/* CSS To Current Standings */
+
+div.flex-class{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+
+div.current-standings img{
+
+    display: flex;
+    justify-content: center;
+
+    width: 30%;
+    height: 30%;
+}
+
+div.current-standings img:hover{
+    transform: scale(1.3);
+}
+
+.first{
+    border: 5px solid red;
+}
+
+.second{
+    border: 5px solid rgb(98, 226, 43) ;
+}
+
+.third{
+    border: 5px solid royalblue;;
+}
+
+#first{
+    color: red;
+}
+
+#second{
+    color: rgb(98, 226, 43);
+}
+
+#third{
+    color: royalblue;
+}
+
+/* Photo OPS  */
+.max_verstappen{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/_jcr_content/image.img.1920.medium.jpg/1617101447981.jpg);
+}
+
+.hamilton{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/lewis-hamilton/_jcr_content/image.img.1920.medium.jpg/1617101457462.jpg);
+}
+
+.bottas{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/valtteri-bottas/_jcr_content/image.img.1920.medium.jpg/1617101457255.jpg);
+}
+
+.norris{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/image.img.1920.medium.jpg/1617101457428.jpg);
+}
+
+.perez{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/sergio-perez/_jcr_content/image.img.1536.medium.jpg/1617101446970.jpg);
+}
+
+.leclerc{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/charles-leclerc/_jcr_content/image.img.1536.medium.jpg/1617101453619.jpg);
+}
+
+.sainz{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/carlos-sainz/_jcr_content/image.img.1536.medium.jpg/1617101457421.jpg);
+}
+
+.ricciardo{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/daniel-ricciardo/_jcr_content/image.img.1536.medium.jpg/1617101458318.jpg);
+}
+
+.gasly{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/pierre-gasly/_jcr_content/image.img.1536.medium.jpg/1617101447487.jpg);
+}
+
+.alonso{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/fernando-alonso/_jcr_content/image.img.1536.medium.jpg/1617101458141.jpg);
+}
+
+.ocon{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/esteban-ocon/_jcr_content/image.img.1536.medium.jpg/1617101457663.jpg);
+}
+
+.vettel{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/sebastian-vettel/_jcr_content/image.img.1536.medium.jpg/1617101458077.jpg);
+}
+
+.stroll{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/lance-stroll/_jcr_content/image.img.1536.medium.jpg/1617101447217.jpg);
+}
+
+.tsunoda{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/yuki-tsunoda/_jcr_content/image.img.1536.medium.jpg/1617101457751.jpg);
+}
+
+.russell{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/george-russell/_jcr_content/image.img.1536.medium.jpg/1617101470404.jpg);
+}
+
+.latifi{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/nicholas-latifi/_jcr_content/image.img.1536.medium.jpg/1617101447797.jpg);
+}
+
+.raikkonen{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1536.medium.jpg/1617101460196.jpg);
+}
+
+.giovinazzi{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/antonio-giovinazzi/_jcr_content/image.img.1536.medium.jpg/1617101458903.jpg);
+}
+
+.mick_schumacher{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/mick-schumacher/_jcr_content/image.img.1536.medium.jpg/1617101458517.jpg);
+}
+
+.kubica{
+    content: url();
+}
+
+.mazepin{
+    content: url(https://www.formula1.com/content/fom-website/en/drivers/nikita-mazepin/_jcr_content/image.img.1536.medium.jpg/1617101458189.jpg);
+}
+
+/* CSS For Driver Info */
+.card{
+margin-left:auto ;
+margin-right: auto;
+}
+
+.main-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+    justify-items: center;
+    
+    width: 60%;
+    margin: auto;
+}
+
+.main-box img.f{
+    grid-column: span 2;
+    grid-row: span 2;
+    /* width: 50%; */
+
+    /* margin: auto; */
+
+    z-index: 1;
+}
+
+.main-box img{
+    height: 100%;
+    width: 100%;
+
+    /* margin: auto; */
+
+    border-radius: 5px;
+}
+
+.first-medal{
+    position: absolute;
+    top: 220px;
+    left: 250px;
+    z-index: 2;
+
+}
+
+.second-medal{
+    position: absolute;
+    z-index: 2;
+
+    top: 220px;
+    right: 400px;
+}
+
+.third-medal{
+    position: absolute;
+    z-index: 2;
+    bottom: 180px;
+    right: 400px;
+}
+
+img.first-medal{
+    height: 10%;
+    width: 5%;
+}
+
+img.second-medal, img.third-medal{
+    height: 5%;
+    width: 2.5%;
+}
+
+hr{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
