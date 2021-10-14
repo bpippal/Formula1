@@ -1,0 +1,2 @@
+A website that shows the different statistics of Formula 1 for the current year such as Driver info, Current Standings, Last race result.
+Website created using HTML, CSS & JavaScript. Live data is fetched by ergast API.
