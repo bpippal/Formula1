@@ -79,7 +79,7 @@ mainPageButton.addEventListener("click",() =>{
 //Last race button 
 lastRaceButton.addEventListener("click", () => {
 
-    fetch("http://ergast.com/api/f1/current/last/results.json")
+    fetch("https://ergast.com/api/f1/current/last/results.json")
     .then((iniResp) => iniResp.json())
     .then((finalResp) => {
       
